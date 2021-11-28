@@ -53,8 +53,7 @@ set to 'Yes') calls __io_putchar() */
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-uint8_t button_state = 0;
-//uint8_t led_state = 0;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -183,12 +182,6 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
-{
-	if (GPIO_Pin == GPIO_PIN_11)
-		button_state = 1;
-}
-
 PUTCHAR_PROTOTYPE
 {
 /* Place your implementation of fputc here */
