@@ -2,7 +2,7 @@
  * NRF24L01.h
  *
  *  Created on: 27 nov. 2021
- *      Author: asus
+ *      Author: jmlASUS
  */
 
 #ifndef INC_NRF24L01_H_
