@@ -1,6 +1,6 @@
 /*
  * NRF24L01
- * auth:H jammoul
+ * auth:jmlASUS
  * 27nov2021
  */
 
